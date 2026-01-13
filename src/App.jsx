@@ -56,7 +56,7 @@ function App() {
     <>
       <div className="min-h-screen max-w-screen p-4 flex flex-col items-center bg-linear-to-b from-blue-500 to-blue-950 ">
         <Navbar />
-        <div className=" w-full max-w-md md:max-w-2x lg:max-w-3xl mx-auto my-4 p-6 bg-blue-300 border border-blue-900 rounded-3xl ">
+        <div className=" w-full max-w-md md:max-w-2x lg:max-w-3xl mx-auto my-4 p-6 bg-blue-300 rounded-3xl ">
           <div className="flex justify-center items-center mb-4 select-none">
             <h1 className="text-lg font-medium">
               What’s on your list today?
@@ -77,7 +77,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="min-h-100 w-full max-w-md md:max-w-2x lg:max-w-3xl mx-auto p-5 bg-blue-300 rounded-3xl border border-blue-900">
+        <div className="min-h-100 w-full max-w-md md:max-w-2x lg:max-w-3xl mx-auto p-5 bg-blue-300 rounded-3xl">
           <h2 className="font-semibold text-lg select-none">Your todos</h2>
           {todos.length === 0 && <div className="flex justify-center m-5 select-none">No todos to display</div>}
           {todos.map(item => {
